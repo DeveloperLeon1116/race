@@ -1,0 +1,22 @@
+input.onButtonPressed(Button.A, function () {
+    basic.pause(500)
+    powerbrick.MotorRunDual(255, 205)
+    basic.pause(11000)
+    powerbrick.MotorRunDual(255, 0)
+    basic.pause(1400)
+    powerbrick.MotorRunDual(255, 205)
+    basic.pause(2500)
+    powerbrick.MotorRunDual(255, 0)
+    basic.pause(1500)
+    powerbrick.MotorRunDual(255, 210)
+    basic.pause(9000)
+    powerbrick.MotorRunDual(0, 205)
+    basic.pause(1300)
+    powerbrick.MotorRunDual(255, 205)
+    basic.pause(3000)
+    powerbrick.MotorRunDual(0, 205)
+    basic.pause(2000)
+})
+basic.forever(function () {
+	
+})
